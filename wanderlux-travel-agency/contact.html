@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | WanderLux Travel Agency</title>
+<meta name="description" content="Contact WanderLux Travel Agency: visit our Sydney office, call or email us, or send a message directly from our contact form.">
+<meta name="keywords" content="contact travel agency, WanderLux address, WanderLux phone number, travel agency Sydney">
+<link rel="canonical" href="contact.html">
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+
+<header class="site-header">
+  <div class="container board-strip">
+    <a href="index.html" class="brand" aria-label="WanderLux Travel Agency home">
+      <span class="code">WLX</span>
+      <span class="name">Wander<em>Lux</em></span>
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+    <nav id="primary-nav" class="board-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="destinations.html">Destinations</a>
+      <a href="calculator.html">Cost Calculator</a>
+      <a href="appointment.html">Book Appointment</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="page-hero">
+    <div class="container">
+      <p class="breadcrumb">Home / Contact</p>
+      <h1>Get in touch</h1>
+      <p style="color:var(--paper-300); max-width:56ch;">Drop into the office, call during business hours, or send a message below &mdash; it opens straight in your email app, addressed to our team.</p>
+    </div>
+  </section>
+
+  <section aria-labelledby="contact-heading">
+    <div class="container">
+      <h2 id="contact-heading" class="visually-hidden">Contact details and form</h2>
+
+      <div class="contact-grid">
+
+        <div class="reveal">
+          <h3>Sydney Office</h3>
+          <ul class="contact-info-list">
+            <li>
+              <svg class="ico" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+              <span>Level 4, 88 Harbour Street<br>Sydney NSW 2000, Australia</span>
+            </li>
+            <li>
+              <svg class="ico" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6.6 10.8c1.4 2.7 3.6 4.9 6.3 6.3l2.1-2.1c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1v3.4c0 .6-.4 1-1 1C10.6 20.8 3.2 13.4 3.2 4.5c0-.6.4-1 1-1H7.6c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1.1L6.6 10.8z"/></svg>
+              <span><a href="tel:+61283001234">+61 2 8300 1234</a></span>
+            </li>
+            <li>
+              <svg class="ico" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 5h20v14H2V5zm2 2.5V17h16V7.5l-8 5-8-5zM4.4 6l7.6 4.8L19.6 6H4.4z"/></svg>
+              <span><a href="mailto:hello@wanderluxtravel.example">hello@wanderluxtravel.example</a></span>
+            </li>
+            <li>
+              <svg class="ico" width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 5v5.4l4 2.4-.8 1.4-5.2-3.1V7h2z"/></svg>
+              <span>Mon&ndash;Fri, 9:00am&ndash;5:30pm AEST</span>
+            </li>
+          </ul>
+
+          <iframe
+            class="map-frame"
+            style="margin-top:24px;"
+            title="Map showing WanderLux Travel Agency's Sydney office location"
+            src="https://www.google.com/maps?q=88+Harbour+Street+Sydney+NSW&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+
+        <form id="contact-form" class="form-card reveal" novalidate>
+          <div class="form-grid">
+
+            <div class="field">
+              <label for="c-name">Full name <span class="req">*</span></label>
+              <input type="text" id="c-name" name="name" autocomplete="name" required aria-describedby="c-name-error">
+              <p class="error-msg" id="c-name-error" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="c-email">Email <span class="req">*</span></label>
+              <input type="email" id="c-email" name="email" autocomplete="email" required aria-describedby="c-email-error">
+              <p class="error-msg" id="c-email-error" aria-live="polite"></p>
+            </div>
+
+            <div class="field full">
+              <label for="c-subject">Subject</label>
+              <input type="text" id="c-subject" name="subject" placeholder="e.g. Question about a Bali package">
+            </div>
+
+            <div class="field full">
+              <label for="c-message">Message <span class="req">*</span></label>
+              <textarea id="c-message" name="message" rows="6" required aria-describedby="c-message-error"></textarea>
+              <p class="error-msg" id="c-message-error" aria-live="polite"></p>
+            </div>
+
+          </div>
+
+          <p class="form-status" id="contact-status" role="status"></p>
+
+          <p style="margin-top:22px;">
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>WanderLux Travel Agency</h4>
+        <p>Personalised holiday planning, guided tours and custom travel packages for domestic and international destinations.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="destinations.html">Destinations &amp; Services</a>
+        <a href="calculator.html">Trip Cost Calculator</a>
+        <a href="about.html">About Us</a>
+      </div>
+      <div>
+        <h4>Get in touch</h4>
+        <a href="appointment.html">Book an Appointment</a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> WanderLux Travel Agency</span>
+      <span>Sydney, Australia</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="js/validation.js"></script>
+<script src="js/contact.js"></script>
+</body>
+</html>
